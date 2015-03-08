@@ -42,7 +42,6 @@ html{
 .testbox {
   margin: 20px auto;
   width: 300px; 
-  height: 640px; 
   -webkit-border-radius: 8px/7px; 
   -moz-border-radius: 8px/7px; 
   border-radius: 8px/7px; 
@@ -137,7 +136,7 @@ a.button {
   margin: 10px 0px 20px 0px;
   display: inline-block;
   text-decoration: none;
-  width: 73px; height: 27px; 
+  width: 72px; height: 27px; 
   -webkit-border-radius: 5px; 
   -moz-border-radius: 5px; 
   border-radius: 5px; 
