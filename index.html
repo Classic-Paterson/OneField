@@ -9,7 +9,9 @@
 <div class="testbox">
   <h1>OneField</h1>
 
-  <form action="email_form.php" method="get" enctype="text/plain">
+
+    
+  <form action="mailto:reecep@datacom.co.nz" method="GET">
 	<hr>
 	<div id="job">
 	<input type="text" name="svnumber" placeholder="SV Number"><br>
@@ -22,7 +24,7 @@
 	<a href="#!" class="button" onclick=partsoutform()>Parts Out</a><br>
 	<textarea name="diag" id="diag" placeholder="Diagnosis"></textarea><br>
 	<a href="#!" class="button" onclick="alert('Next Job!')">Next Job</a>
-	<a href="#!" class="button" onclick="document.forms[0].submit();return false;">Submit</a><br>
+	<input type="submit" value="Send" />
 	</div>
 	<div id="partsin" style="display:none">
 			<h1>Parts In</h1>
